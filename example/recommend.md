@@ -36,6 +36,8 @@
 
 # Flutter
 
+* redux - 状态管理
+* flutter_redux - 状态管理
 * native_pdf_view - 给 Flutter 滚动组件提供下拉刷新和上拉加载的小部件
 * pull_to_refresh - 一组带有Flutter动画的加载指示器
 * flutter_easyloading - 一个干净轻巧的 loading/toast 小部件，用于Flutter，易于使用，无需上下文
@@ -46,7 +48,7 @@
 * visibility_detector - 检测其子项的可见性并通知回调的小部件
 * styled_widget - 通过使用方法定义小部件来简化小部件树结构。 从 CSS 和 SwiftUI 中汲取灵感
 * qr_flutter - QR.Flutter 是一个用于通过 Widget 或自定义painter简单快速地渲染二维码的Flutter 库
-* qr_code_scanner - 
+* qr_code_scanner - 二维码扫描
 * expandable - 可以由用户展开或折叠的 Flutter 小部件
 * flutter_keyboard_visibility - 监听键盘的显示和隐藏，对键盘可见性变化做出反应
 * animations - 官方出品，可以轻松集成到任何 Flutter 应用程序中的精美预建动画
