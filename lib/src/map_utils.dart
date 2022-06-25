@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:json_by_path/json_by_path.dart';
 
+/// 补充Map的一些实用方法
 class MapUtils {
   /// 深克隆一个Map
   static Map<String, T> cloneDeep<T>(Map<String, T> target) {
