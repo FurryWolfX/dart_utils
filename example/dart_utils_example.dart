@@ -1,6 +1,8 @@
 import 'dart:io';
 
 import 'package:dart_utils/dart_utils.dart';
+import 'package:dart_utils/plugins/loggy_file_output_printer.dart';
+import 'package:dart_utils/plugins/text_compare.dart';
 import 'package:loggy/loggy.dart';
 
 void main() {
@@ -29,4 +31,10 @@ void main() {
   logInfo(result4); // ['b']
   var result5 = ListUtils.findIndex(list, (item) => item == 'b');
   logInfo(result5); // 1
+
+  double c = getTextSimilarity('ab', 'b');
+  print(c); // 0.7071067811865475
+
+  double c2 = getTextBalance('ab', 'b');
+  print(c2); // 0.5
 }
