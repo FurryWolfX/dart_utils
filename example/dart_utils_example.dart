@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:dart_utils/dart_utils.dart';
-import 'package:dart_utils/plugins/loggy_file_output_printer.dart';
-import 'package:dart_utils/plugins/text_compare.dart';
+import 'package:wolfx_dart_utils/wolfx_dart_utils.dart';
+import 'package:wolfx_dart_utils/plugins/loggy_file_output_printer.dart';
+import 'package:wolfx_dart_utils/plugins/text_compare.dart';
 import 'package:loggy/loggy.dart';
 
 void main() {

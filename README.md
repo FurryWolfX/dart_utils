@@ -1,9 +1,11 @@
 # Dart utils for self use
 
+为了避免和pub仓库上的重名，包名已重命名 `dart_utils` -> `wolfx_dart_utils`
+
 ## Map 工具
 
 ```dart
-import 'package:dart_utils/dart_utils.dart';
+import 'package:wolfx_dart_utils/wolfx_dart_utils.dart';
 void main() {
   var json = {
     'a': 'aaa',
@@ -30,7 +32,7 @@ void main() {
 ## List 工具
 
 ```dart
-import 'package:dart_utils/dart_utils.dart';
+import 'package:wolfx_dart_utils/wolfx_dart_utils.dart';
 void main() {
   var list = ['a', 'b', 'c'];
   /// 补充find方法，找到后中断循环，比通过filter来找更高效
@@ -51,7 +53,7 @@ void main() {
 ## 路径工具
 
 ```dart
-import 'package:dart_utils/dart_utils.dart';
+import 'package:wolfx_dart_utils/wolfx_dart_utils.dart';
 void main() {
   // 将win风格的路径转换成posix风格，并通过normalize简化路径
   PathUtils.winPathToPosix('c:\\dir\\.\\file'); // c:/dir/file
@@ -63,7 +65,7 @@ void main() {
 拷贝文件，保留lastModified时间
 
 ```dart
-import 'package:dart_utils/dart_utils.dart';
+import 'package:wolfx_dart_utils/wolfx_dart_utils.dart';
 void main() {
   // 拷贝文件，并保留lastModified时间
   FileUtils.copyFileSync('c:/file.txt', 'd:/file.txt');
@@ -74,14 +76,14 @@ void main() {
 
 ## 其他
 
-默认不包含在 `dart_utils.dart` 使用前请引用 `plugins` 下的文件。
+默认不包含在 `wolfx_dart_utils.dart` 使用前请引用 `plugins` 下的文件。
 
 ### 计算文本相似度
 
 
 
 ```dart
-import 'package:dart_utils/plugins/text_compare.dart';
+import 'package:wolfx_dart_utils/plugins/text_compare.dart';
 
 void main() {
   /// 余弦相似度用向量空间中两个向量夹角的余弦值作为衡量两个个体差异的大小。
@@ -100,7 +102,7 @@ void main() {
 
 ```dart
 import 'package:loggy/loggy.dart';
-import 'package:dart_utils/plugins/loggy_file_output_printer.dart';
+import 'package:wolfx_dart_utils/plugins/loggy_file_output_printer.dart';
 
 void main() {
   Loggy.initLoggy(

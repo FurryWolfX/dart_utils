@@ -1,4 +1,4 @@
-library dart_utils;
+library wolfx_dart_utils;
 
 export 'src/map_utils.dart';
 export 'src/list_utils.dart';
