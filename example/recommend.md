@@ -14,6 +14,7 @@
 * uuid - 适用于所有 Dart 平台（Web、VM、Flutter）的 RFC4122（v1、v4、v5）UUID 生成器和解析器 。
 * queue - 队列控制
 * isolated_worker - 单例worker
+* isolate_manager - isolate池
 
 # 数据库
 
