@@ -12,6 +12,8 @@
 * crypto - 加密相关
 * coordtransform - GPS坐标转换
 * uuid - 适用于所有 Dart 平台（Web、VM、Flutter）的 RFC4122（v1、v4、v5）UUID 生成器和解析器 。
+* queue - 队列控制
+* isolated_worker - 单例worker
 
 # 数据库
 
@@ -28,6 +30,7 @@
 * html - HTML解析
 * archive - 压缩包工具
 * image - 使服务器和 Web 应用程序能够加载、操作和保存具有各种图像文件格式的图像，包括 PNG、JPEG、GIF、BMP、WebP、TIFF、TGA、PSD、PVR 和 OpenEXR。
+* fast_image_resizer - resize的速度比image库更快。
 
 # 计算类
 
