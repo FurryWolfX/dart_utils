@@ -74,3 +74,7 @@
 * flutter_cache_manager - 一个 CacheManager，用于在应用程序的缓存目录中下载和缓存文件。 可以更改文件保留时间的各种设置。
 * statsfl - Flutter 的简单 FPS 监视器，有助于轻松诊断应用程序中的性能问题。
 * share_plus - 这个Flutter插件用于通过平台共享UI来分享内容
+* route_animation_helper - 路由跳转动画
+* flutter_markdown - md解析
+* desktop_multi_window - 多窗口管理
+* window_manager - 窗口管理
